@@ -7,4 +7,39 @@ html(lang="en")
         link(rel="stylesheet", href="style.css")
     body 
         main
-            
+            include ./includes/header.pug
+
+            section.hero
+                p.path
+                    |Home / Product / Watches /
+                    strong  Way Kambas Mini Ebony
+                div.product
+                    div.left
+                    
+                            img(src="../img/image 37.png", alt="")    
+                            img(src="../img/image-removebg-preview 1.png", alt="")
+                            img(src="../img/img2.png", alt="")
+                            img(src="../img/img3.png", alt="")
+
+                    div.right
+                        img(src="../img/image 37.png", alt="").watch
+                        
+                        div.detail
+                            h2 WAY KAMBAS MINI EBONY
+                            del Rp 1.280.000
+                            strong  Rp 1.024.000
+                            p choose model
+                            div.color
+                                img(src="../img/image 38.png", alt="")
+                                img(src="../img/image 39.png ", alt="")
+                            div.add-to-cart 
+                                img(src="../img/frame 6.png", alt="").minez
+                                h3 1
+                                img(src="./img/frame 5.png", alt="").plus
+                                button Add to cart
+                            
+
+
+
+
+        include ./includes/footer.pug

@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 header{
     max-width: 1200px;
     margin: 0 auto;
@@ -35,6 +39,77 @@ header div .cart{
     border-radius: 100%;
     padding: 10px;
 }
+
+
+
+
+/* section */
+.hero{
+    padding-top: 40px;
+
+}
+.hero .path strong{
+    color: #D84727;
+}
+.hero .product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .product .left{
+    background-color: #F1DDC9;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero .product .right{
+    display: flex;
+    justify-content: start;
+}
+.hero .product .right .detail{
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    /* padding-right: 480px; */
+    gap:15px;
+    
+}
+.hero .product .right .detail strong{
+    font-size: 20px;
+}
+.hero .product .right .detail .color{
+    display: flex;
+    gap: 10px;
+}
+
+.hero .product .right .detail .add-to-cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.hero .product .right .detail .add-to-cart .minez{
+    border: solid 1px black;
+}
+.hero .product .right .detail .add-to-cart .plus{
+    background-color: #D84727;
+    border: solid 1px #D84727;
+}
+.hero .product .right .detail .add-to-cart button{
+    background-color: #D84727;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 12px;
+}
+.hero .product .right .watch{
+    width: 250px;
+    position: absolute;
+    right: 680px;
+    top: 150px;
+}
+
+
 
 
 /* footer */
