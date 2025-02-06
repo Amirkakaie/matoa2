@@ -35,3 +35,35 @@ header div .cart{
     border-radius: 100%;
     padding: 10px;
 }
+
+
+/* footer */
+
+
+footer .ham{
+    background-color: #DA5E42;
+}
+footer .ham .company{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+footer .fot{
+    background-color: #D84727;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 30px;
+    padding-bottom:30px ;
+}
+footer .fot .uls ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+
